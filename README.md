@@ -27,11 +27,7 @@ The dataset is not included in the repository to protect the privacy of the part
 
 ## Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/telegram-group-network.git
-```
+1. Clone the repository.
 
 2. Install dependencies:
 
