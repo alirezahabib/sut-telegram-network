@@ -14,19 +14,13 @@ The network was constructed based on interactions such as replies, reactions, an
 - Analyzes the degree distribution of participants engaging in interactions, revealing power-law behavior akin to real social networks.
 - Constructs a network framework incorporating interactions such as replies, reactions, and pinned messages, offering insights into network dynamics and participant engagement patterns.
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/telegram-group-network.git
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
+## Plots
+![Degree Distribution (isolated nodes removed)](plots/hist.png)
+![Weighted Degree Distribution (isolated nodes removed)](plots/hist4.png)
+![Degree Fit](plots/fit.png)
+![Degree Fit (log-log)](plots/fit3.png)
+![Weighted Degree Fit](plots/fit1.png)
+![Weighted Degree Fit (log-log)](plots/fit2.png)
 
 ## Usage
 
