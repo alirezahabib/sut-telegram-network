@@ -4,8 +4,8 @@
 
 ## Overview
 
-We studied the communication network among members of the course within the Telegram group. Using Telegram’s MTProto API and telethon library, we collected data on users and message interactions. The gathered data was saved in a database for further analysis. We analyzed the degree distribution of individuals interacting, revealing power-law behavior akin to real social networks. 
-The network was constructed based on interactions such as replies, reactions, and pinned messages.
+We studied the communication network among members of the course within the Telegram group. Using Telegram’s MTProto API and `telethon` library, we collected data on users and message interactions. The gathered data was saved in a database for further analysis. We analyzed the degree distribution of individuals interacting, revealing power-law behavior akin to real social networks. 
+The network was constructed in `networkx` based on interactions such as replies, reactions, and pinned messages.
 
 ## Features
 
@@ -28,7 +28,7 @@ The network was constructed based on interactions such as replies, reactions, an
 2. Configure the Telegram API credentials in the project.
 3. Run the data collection script to gather user profiles and message interactions.
 4. Analyze the collected data using the provided analysis tools.
-5. Visualize the network structure using appropriate visualization libraries.
+5. Visualize the network structure.
 
 ## License
 
@@ -36,6 +36,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
+- Thanks to Prof. Saman Moghimi-Araghi for guiding us in this project.
 - Thanks to the creators of Telegram and Telethon for providing robust APIs and libraries for data collection.
-- Special thanks to the contributors and maintainers of open-source libraries used in this project.
 - Hat tip to the course participants of the course Network Analysis Fall Semester 2023 whose interactions formed the basis of this analysis.
