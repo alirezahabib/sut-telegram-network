@@ -1,0 +1,7 @@
+telethon
+matplotlib
+networkx
+pandas
+pillow
+numpy
+powerlaw
