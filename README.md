@@ -25,13 +25,7 @@ The dataset is not included in the repository to protect the privacy of the part
 ![Weighted Degree Fit](plots/fit1.png)
 ![Weighted Degree Fit (log-log)](plots/fit2.png)
 
-## Usage
-
-1. Obtain a personal Telegram client code to access the Telegram API.
-2. Configure the Telegram API credentials in the project.
-3. Run the data collection script to gather user profiles and message interactions.
-4. Analyze the collected data using the provided analysis tools.
-5. Visualize the network structure.
+## Installation
 
 1. Clone the repository:
 
@@ -52,6 +46,14 @@ api_id = your_api_id
 api_hash = 'your_api_hash'
 phone_number = '+989xxxxxxxxx'
 ```
+
+## Usage
+
+1. Obtain a personal Telegram client code to access the Telegram API.
+2. Configure the Telegram API credentials in the project.
+3. Run the data collection script to gather user profiles and message interactions.
+4. Analyze the collected data using the provided analysis tools.
+5. Visualize the network structure.
 
 ## License
 
