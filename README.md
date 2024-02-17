@@ -33,6 +33,26 @@ The dataset is not included in the repository to protect the privacy of the part
 4. Analyze the collected data using the provided analysis tools.
 5. Visualize the network structure.
 
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/telegram-group-network.git
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Create and fill `credentials.py`:
+
+```python
+api_id = your_api_id
+api_hash = 'your_api_hash'
+phone_number = '+989xxxxxxxxx'
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
