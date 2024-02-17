@@ -14,6 +14,9 @@ The network was constructed in `networkx` based on interactions such as replies,
 - Analyzes the degree distribution of participants engaging in interactions, revealing power-law behavior akin to real social networks.
 - Constructs a network framework incorporating interactions such as replies, reactions, and pinned messages, offering insights into network dynamics and participant engagement patterns.
 
+## Dataset
+The dataset is not included in the repository to protect the privacy of the participants. We may release an anonymized version of the dataset in the future.
+
 ## Plots
 ![Degree Distribution (isolated nodes removed)](plots/hist.png)
 ![Weighted Degree Distribution (isolated nodes removed)](plots/hist4.png)
