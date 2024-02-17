@@ -1,5 +1,7 @@
 # Telegram Group Network Analysis
 
+![result](plots/network2.jpg)
+
 ## Overview
 
 We studied the communication network among members of the course within the Telegram group. Using Telegram’s MTProto API and telethon library, we collected data on users and message interactions. The gathered data was saved in a database for further analysis. We analyzed the degree distribution of individuals interacting, revealing power-law behavior akin to real social networks. 
