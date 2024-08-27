@@ -4,20 +4,22 @@
 
 ## Overview
 
-We studied the communication network among members of the course within the Telegram group. Using Telegram’s MTProto API and `telethon` library, we collected data on users and message interactions. The gathered data was saved in a database for further analysis. We analyzed the degree distribution of individuals interacting, revealing power-law behavior akin to real social networks. 
+We studied the communication network among course members within the Telegram group. We collected data on users and message interactions using Telegram’s MTProto API and `telethon` library. The gathered data was saved in a database for further analysis. We analyzed the degree distribution of individuals interacting, revealing power-law behavior akin to real social networks. 
 The network was constructed in `networkx` based on interactions such as replies, reactions, and pinned messages.
 
 ## Features
 
-- Utilizes Telegram's MTProto API and Telethon library for data collection.
+- We used Telegram's MTProto API and `telethon` library for data collection.
 - Captures and stores user profiles and various message interactions in a database.
 - Analyzes the degree distribution of participants engaging in interactions, revealing power-law behavior akin to real social networks.
 - Constructs a network framework incorporating interactions such as replies, reactions, and pinned messages, offering insights into network dynamics and participant engagement patterns.
 
 ## Dataset
-The dataset is not included in the repository to protect the privacy of the participants. We may release an anonymized version of the dataset in the future.
+To protect the participants' privacy, the dataset is not included in the repository. We may release an anonymized version of the dataset in the future.
 
 ## Plots
+Check the slides from our presentation [here](report/telegram-presentation.pdf). 
+
 ![Degree Distribution (isolated nodes removed)](plots/hist.png)
 ![Weighted Degree Distribution (isolated nodes removed)](plots/hist4.png)
 ![Degree Fit](plots/fit.png)
